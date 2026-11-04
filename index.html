@@ -3,154 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#090909">
-<title>تاج ولایت | رسانه رسمی</title>
-
+<meta name="theme-color" content="#08090b">
+<meta name="description" content="پایگاه رسمی رسانه‌ای تاج ولایت">
+<title>تاج ولایت</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
 *{box-sizing:border-box}
-
-body{
-margin:0;
-background:radial-gradient(circle at top,#302416,#090909 65%);
-color:#fff;
-font-family:Tahoma,sans-serif;
-text-align:center;
-min-height:100vh;
-}
-
-header{
-padding:55px 15px 30px;
-}
-
-.profile{
-width:175px;
-height:175px;
-margin:auto;
-border-radius:50%;
-border:3px solid #d6ad59;
-background:linear-gradient(145deg,#292016,#080808);
-box-shadow:0 0 30px #c99a4355;
-display:flex;
-align-items:center;
-justify-content:center;
-flex-direction:column;
-}
-
-.sword{
-font-size:65px;
-color:#e8c477;
-}
-
-h1{
-color:#e8c477;
-font-size:39px;
-margin:22px 0 10px;
-}
-
-.subtitle{
-color:#c5b99f;
-font-size:14px;
-line-height:2;
-}
-
-.line{
-width:120px;
-height:2px;
-background:#c99a43;
-margin:25px auto;
-}
-
-main{
-width:90%;
-max-width:500px;
-margin:auto;
-}
-
-.welcome{
-color:#ddd0b9;
-line-height:2;
-margin-bottom:30px;
-}
-
-.button{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:12px;
-padding:19px;
-margin:18px 0;
-border:1px solid #c99a43;
-border-radius:16px;
-background:linear-gradient(110deg,#302416,#111);
-color:#f2d28d;
-text-decoration:none;
-font-size:18px;
-font-weight:bold;
-transition:.2s;
-}
-
-.button:hover{
-background:#49371e;
-}
-
-.icon{
-font-size:25px;
-}
-
-footer{
-padding:40px 10px;
-color:#8c7957;
-font-size:12px;
-}
+body{margin:0;min-height:100vh;color:#f4f1e9;font-family:Vazirmatn,Tahoma,sans-serif;background:radial-gradient(ellipse at 50% 10%,#292016 0%,#101012 42%,#050506 100%);display:flex;flex-direction:column;align-items:center}
+header{width:100%;text-align:center;padding:42px 18px 20px}
+.logo{width:220px;height:220px;max-width:65vw;max-height:65vw;border-radius:50%;object-fit:cover;border:3px solid #c99a43;box-shadow:0 0 0 6px #c99a4322,0 0 38px #c99a4444;background:#090909}
+h1{font-size:clamp(34px,8vw,48px);margin:20px 0 4px;font-weight:800;color:#e8c477}
+.tagline{margin:0;color:#c6b99f;font-size:14px}
+.divider{width:130px;height:1px;background:linear-gradient(90deg,transparent,#c99a43,transparent);margin:23px auto 0}
+main{width:min(560px,calc(100% - 34px));padding:12px 0 50px}
+.welcome{text-align:center;color:#d0c6b5;font-size:14px;margin:8px 0 24px}
+.links{display:grid;gap:16px}
+a.button{display:flex;align-items:center;gap:16px;text-decoration:none;color:#f7f2e8;padding:19px 20px;border-radius:17px;border:1px solid #9b7134;background:linear-gradient(110deg,#211a11,#0d0d0e 70%);box-shadow:inset 0 0 18px #c99a4310,0 10px 25px #0008}
+.icon{width:48px;height:48px;flex:0 0 48px;border-radius:50%;display:grid;place-items:center;background:#c99a43;color:#17110a;font-size:25px;font-weight:800}
+.label strong{display:block;font-size:19px}
+.label small{display:block;color:#b9aa90;font-size:12px;margin-top:3px}
+.arrow{margin-right:auto;color:#d9b36e;font-size:26px}
+footer{color:#776b58;font-size:12px;padding:0 16px 24px}
 </style>
 </head>
-
 <body>
-
 <header>
-
-<div class="profile">
-<div class="sword">⚔</div>
-</div>
-
+<img class="logo" src="logo.png" alt="لوگوی تاج ولایت">
 <h1>تاج ولایت</h1>
-
-<p class="subtitle">
-کانال رسمی تاج ولایت<br>
-با عشق به امیرالمؤمنین علی (ع)
-</p>
-
-<div class="line"></div>
-
+<p class="tagline">کانال رسمی تاج ولایت</p>
+<div class="divider"></div>
 </header>
-
 <main>
-
-<p class="welcome">
-به پایگاه رسانه‌ای تاج ولایت خوش آمدید
-<br>
-رسانه‌ای برای نشر معارف اهل بیت (علیهم السلام)
-</p>
-
-<a class="button"
-href="https://ble.ir/tajvelayat"
-target="_blank">
-<span class="icon">✉</span>
-ورود به کانال بله
+<p class="welcome">به پایگاه رسانه‌ای تاج ولایت خوش آمدید</p>
+<nav class="links">
+<a class="button" href="https://ble.ir/tajvelayat" target="_blank">
+<span class="icon">ب</span>
+<span class="label"><strong>کانال بله</strong><small>@tajvelayat</small></span>
+<span class="arrow">‹</span>
 </a>
-
-<a class="button"
-href="https://www.aparat.com/shorts/user/aminatripour/shorts"
-target="_blank">
+<a class="button" href="https://www.aparat.com/shorts/user/aminatripour/shorts" target="_blank">
 <span class="icon">▶</span>
-ورود به کانال آپارات
+<span class="label"><strong>کانال آپارات</strong><small>ویدیوهای کانال تاج ولایت</small></span>
+<span class="arrow">‹</span>
 </a>
-
+</nav>
 </main>
-
-<footer>
-© تمامی حقوق محفوظ است | تاج ولایت
-</footer>
-
+<footer>© تاج ولایت</footer>
 </body>
 </html>
